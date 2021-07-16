@@ -48,7 +48,7 @@ echo "Generate file ..."
 
 echo "copy CNAME if exists"
 if [ -n "${CNAME}" ]; then
-    echo $CNAME > public
+    echo $CNAME > ./public/CNAME
 fi
 
 cd $PUBLISH_DIR
