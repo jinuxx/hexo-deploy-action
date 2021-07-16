@@ -36,6 +36,7 @@ echo "Deploy to ${PRO_REPOSITORY}"
 cd $GITHUB_WORKSPACE 
 
 echo "npm install ..." 
+npm --version
 npm install
 
 
